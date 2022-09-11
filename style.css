@@ -1,0 +1,102 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+#container {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    height: 500px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    gap: 10px;
+    flex-direction: column;
+    padding: 5px;
+    background-color: lightgray;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    height:50px;
+    margin:0;
+
+    /*height: 100%;
+    width: 100%;*/
+  }
+
+  #row1 {
+    display:flex;
+    gap: 20px;
+  }
+
+  .tasto {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border:1px solid black;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+  }
+
+  #sum, #divide, #multiply, #subtract{
+    background-color: darkkhaki;
+  }
+
+  #point , #equal {
+    background-color: aquamarine;
+  }
+
+  .tastoLungo{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    width: 40px;
+    height: 30px;
+    border:1px solid black;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    background-color : orange;
+  }
+
+  button{
+    display: flex;
+    border-radius: 5px;
+    font-weight: 3px;
+}
+
+
+#monitor{
+  display: flex;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border:1px solid black;
+    margin:10px;
+    padding: 5px;
+    justify-content:center;
+    align-items: end;
+    flex-direction: column;
+}
+
+#monitorRow0{
+  color:lightgrey;
+}
+
+
+.embossed {
+  box-shadow: inset 2px 2px -1px #ccc, inset 1px -1px 8px #999;
+}
